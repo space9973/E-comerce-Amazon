@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Redressed&display=swap');
+:root {
+    --main-bg-color: #030a6ced;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: var(--main-bg-color);
+    /* background-color: black; */
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 130px;
+    padding: 0px 0px;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 500px;
+    height: 30px;
+    border-radius: 7px;
+    margin: 0px 10px;
+    padding: 0px 30px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Redressed', cursive;
+}
+nav ul li a:hover{
+    color: rgb(252, 152, 1);
+    font-weight: 900;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.slider{
+    margin: 12px 1px;
+    width: 88vh;
+}
+.container{
+    min-height: 100vh;
+}
+footer{
+    background-color: var(--main-bg-color);
+    height: 12vh;
+    color: white;
+    font-family: 'Redressed', cursive;
+}

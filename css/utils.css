@@ -1,0 +1,15 @@
+
+.flexall-text-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    padding: 5px 10px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #030a6ced;
+    cursor: pointer;
+    font-weight: 900;
+}
